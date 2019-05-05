@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WBStatusTimelineViewController.h
 //  YLDisplayDemo
 //
 //  Created by yangl on 2019/5/5.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface WBStatusTimelineViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

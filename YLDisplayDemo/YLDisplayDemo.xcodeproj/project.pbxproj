@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		9F57FBAF227F0B8E00D58E25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F57FBAE227F0B8E00D58E25 /* AppDelegate.m */; };
-		9F57FBB2227F0B8E00D58E25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F57FBB1227F0B8E00D58E25 /* ViewController.m */; };
-		9F57FBB5227F0B8E00D58E25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F57FBB3227F0B8E00D58E25 /* Main.storyboard */; };
 		9F57FBB7227F0B9000D58E25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F57FBB6227F0B9000D58E25 /* Assets.xcassets */; };
 		9F57FBBA227F0B9000D58E25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F57FBB8227F0B9000D58E25 /* LaunchScreen.storyboard */; };
 		9F57FBBD227F0B9000D58E25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F57FBBC227F0B9000D58E25 /* main.m */; };
+		9F57FBCC227F16D600D58E25 /* YLRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F57FBCA227F16D600D58E25 /* YLRootViewController.m */; };
+		9F57FBCD227F16D600D58E25 /* YLRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F57FBCB227F16D600D58E25 /* YLRootViewController.xib */; };
+		9F57FBD3227F1B1A00D58E25 /* WBStatusTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F57FBD2227F1B1A00D58E25 /* WBStatusTimelineViewController.m */; };
+		9F57FBD7227F1D1100D58E25 /* YYTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F57FBD6227F1D1100D58E25 /* YYTableView.m */; };
 		DFD99FB143F715C8FF808C04 /* libPods-YLDisplayDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7424F9B103F16670D646E2 /* libPods-YLDisplayDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -23,13 +25,17 @@
 		9F57FBAA227F0B8E00D58E25 /* YLDisplayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLDisplayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F57FBAD227F0B8E00D58E25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9F57FBAE227F0B8E00D58E25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9F57FBB0227F0B8E00D58E25 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9F57FBB1227F0B8E00D58E25 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9F57FBB4227F0B8E00D58E25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F57FBB6227F0B9000D58E25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F57FBB9227F0B9000D58E25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F57FBBB227F0B9000D58E25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F57FBBC227F0B9000D58E25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F57FBC9227F16D600D58E25 /* YLRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLRootViewController.h; sourceTree = "<group>"; };
+		9F57FBCA227F16D600D58E25 /* YLRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLRootViewController.m; sourceTree = "<group>"; };
+		9F57FBCB227F16D600D58E25 /* YLRootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YLRootViewController.xib; sourceTree = "<group>"; };
+		9F57FBD1227F1B1A00D58E25 /* WBStatusTimelineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBStatusTimelineViewController.h; sourceTree = "<group>"; };
+		9F57FBD2227F1B1A00D58E25 /* WBStatusTimelineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBStatusTimelineViewController.m; sourceTree = "<group>"; };
+		9F57FBD5227F1D1100D58E25 /* YYTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTableView.h; sourceTree = "<group>"; };
+		9F57FBD6227F1D1100D58E25 /* YYTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +64,6 @@
 				84E34D5B12CBE622CA0FEDCF /* Pods-YLDisplayDemo.debug.xcconfig */,
 				16F424C2F567D733A6CF0088 /* Pods-YLDisplayDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -83,17 +88,53 @@
 		9F57FBAC227F0B8E00D58E25 /* YLDisplayDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9F57FBCF227F1A7A00D58E25 /* YYKitWeiBo */,
 				9F57FBAD227F0B8E00D58E25 /* AppDelegate.h */,
 				9F57FBAE227F0B8E00D58E25 /* AppDelegate.m */,
-				9F57FBB0227F0B8E00D58E25 /* ViewController.h */,
-				9F57FBB1227F0B8E00D58E25 /* ViewController.m */,
-				9F57FBB3227F0B8E00D58E25 /* Main.storyboard */,
-				9F57FBB6227F0B9000D58E25 /* Assets.xcassets */,
+				9F57FBC9227F16D600D58E25 /* YLRootViewController.h */,
+				9F57FBCA227F16D600D58E25 /* YLRootViewController.m */,
+				9F57FBCB227F16D600D58E25 /* YLRootViewController.xib */,
+				9F57FBCE227F16EE00D58E25 /* Supporting Files */,
+			);
+			path = YLDisplayDemo;
+			sourceTree = "<group>";
+		};
+		9F57FBCE227F16EE00D58E25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				9F57FBB8227F0B9000D58E25 /* LaunchScreen.storyboard */,
+				9F57FBB6227F0B9000D58E25 /* Assets.xcassets */,
 				9F57FBBB227F0B9000D58E25 /* Info.plist */,
 				9F57FBBC227F0B9000D58E25 /* main.m */,
 			);
-			path = YLDisplayDemo;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F57FBCF227F1A7A00D58E25 /* YYKitWeiBo */ = {
+			isa = PBXGroup;
+			children = (
+				9F57FBD4227F1CEA00D58E25 /* Other */,
+				9F57FBD0227F1AD100D58E25 /* Timeline */,
+			);
+			path = YYKitWeiBo;
+			sourceTree = "<group>";
+		};
+		9F57FBD0227F1AD100D58E25 /* Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				9F57FBD1227F1B1A00D58E25 /* WBStatusTimelineViewController.h */,
+				9F57FBD2227F1B1A00D58E25 /* WBStatusTimelineViewController.m */,
+			);
+			path = Timeline;
+			sourceTree = "<group>";
+		};
+		9F57FBD4227F1CEA00D58E25 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				9F57FBD5227F1D1100D58E25 /* YYTableView.h */,
+				9F57FBD6227F1D1100D58E25 /* YYTableView.m */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,7 +197,7 @@
 			files = (
 				9F57FBBA227F0B9000D58E25 /* LaunchScreen.storyboard in Resources */,
 				9F57FBB7227F0B9000D58E25 /* Assets.xcassets in Resources */,
-				9F57FBB5227F0B8E00D58E25 /* Main.storyboard in Resources */,
+				9F57FBCD227F16D600D58E25 /* YLRootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,8 +233,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F57FBB2227F0B8E00D58E25 /* ViewController.m in Sources */,
+				9F57FBD3227F1B1A00D58E25 /* WBStatusTimelineViewController.m in Sources */,
 				9F57FBBD227F0B9000D58E25 /* main.m in Sources */,
+				9F57FBCC227F16D600D58E25 /* YLRootViewController.m in Sources */,
+				9F57FBD7227F1D1100D58E25 /* YYTableView.m in Sources */,
 				9F57FBAF227F0B8E00D58E25 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -201,14 +244,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9F57FBB3227F0B8E00D58E25 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9F57FBB4227F0B8E00D58E25 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9F57FBB8227F0B9000D58E25 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -339,7 +374,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3XY474KY37;
-				INFOPLIST_FILE = YLDisplayDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/YLDisplayDemo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -357,7 +392,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3XY474KY37;
-				INFOPLIST_FILE = YLDisplayDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/YLDisplayDemo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
